@@ -1,0 +1,316 @@
+
+
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+}
+
+
+.container
+ {
+     margin: auto;
+     width: 1200px;
+     border: solid 2px #FFC107 ;
+     color:#263238;
+     box-shadow: 0 0 30px 5px rgba(0, 0, 0,0.2)
+ }
+ p{
+     text-align: justify;
+ }
+ /*Header*/
+ header {
+    
+    display: flex;
+   
+    
+}
+.titre {
+   width: 70%;
+   
+    
+ }
+
+ .titre h2 {
+     position: relative;
+     left: 34px;
+     top: 80px;
+     text-transform: uppercase ;
+
+ }
+ .soustitre {
+    position: relative;
+    left: 34px;
+    top: 60px;
+     font-size: 15px
+
+
+ }
+ 
+ .soustitre::after{
+     content: " ";
+     height: 2px;
+     width: 42px;
+     background-color: #FFC107;
+     position: absolute;
+     top: 16px;
+     left: 1px;
+  
+     
+ }
+ .prenom {
+    
+    color: #FFC107;
+}
+ .portrait {
+     width: 30%;
+     text-align: center;
+     background-color:#FFC107;
+ }
+ #photo{
+     border-radius: 50% ;
+     height: 200px;
+     width: 200px;
+    margin-top: 3%;
+    
+}
+/*disposition*/
+.left {
+    display: flex;
+}
+
+ aside {
+     width: 30%;
+     background-color: #FFC107;
+     display:flex;
+     flex-direction: column;
+     justify-content: space-between;
+     
+ }
+
+ main {
+    
+    width: 70%;
+    display: flex;
+    /flex-direction: column;
+    
+}
+
+ /*------------------------------------aside--------------------*/
+a {
+    text-decoration: none;
+    color:#263238 ;
+
+    
+} 
+a:hover{
+    text-decoration: underline;
+    color: #FFC107;
+    background-color: #263238
+
+}
+
+.contact{
+     margin-bottom: 5%;
+ }
+ .apropos{
+    flex: 2;*/
+ }
+ .loisirs{
+    margin-top: 5%;
+    margin-bottom: 7%;
+ }
+
+ .cadre{
+     
+      border: solid 1px #263238;
+     background-color:#263238 ;
+     color:#FFC107;
+     text-align: center;
+     text-transform: uppercase;
+ }
+ .paragraphe_contact {
+     position: relative;
+     left: 8%;
+ }
+ 
+ .paragraphe_apropos{
+
+     margin: 8% 8%;
+     text-align: justify;
+   
+ }
+
+ .icon_aside{
+
+     display: flex;
+     justify-content: space-around;
+     
+     
+ }
+
+ /*--------------------Main---------------*/
+ .section_main{
+     margin-left: 5%;
+     margin-right: 5%;
+ }
+ .icon_main {
+     color:#FFC107 ;
+     margin-right: 15px;
+ }
+ .title{
+     border-bottom: solid 2px #FFC107 ;
+     font-weight: bolder;
+     text-transform: uppercase;
+ }
+ .flex_item{
+     display: flex;
+     
+     margin-bottom: 5%;
+ }
+ .item {
+    
+     margin-right: 20%;
+ }
+ .item h3 {
+    
+     margin-top: 5px;
+     
+    
+ }
+ .item p{
+    width: 180px;
+     margin-bottom: 20px;
+    
+     
+ }
+ .section_information{
+     display: flex;
+     
+ }
+ .date{
+     
+     width: 30%;
+     margin-left: 0;
+     display: flex;
+     
+   
+     
+ }
+ .info{
+    
+    width: 70%;
+    margin-left: 5%;
+ }
+ .info h3{
+     text-transform: uppercase;
+ }
+
+
+.icon_circle{
+    font-size: 0.5em;
+    color: #FFC107 ;
+    margin-left: 3%;
+    margin-right:2px ;
+    padding-top: 18px;
+}
+.icon_dot_circle{
+    color: #FFC107 ;
+    padding-top: 15px;
+
+}
+.year_city{
+    margin-left: 10px;
+    
+}
+
+/*RESPONSIVE*/
+@media all and (max-width: 800px){  
+   
+    
+    .container{
+        width: auto;
+     }
+     header{
+         display: flex;
+         flex-direction: column;
+         height: 360px;
+     }
+     .portrait{
+         background-color: #FFC107;
+         width: auto;
+         height: 220px;
+         
+     }
+     .titre{
+         width: auto;
+         margin: auto;
+         position: relative;
+         right: 30px;
+         bottom: 20px;
+     }
+     #photo{
+         margin-top: 10px;
+     }
+     
+    .left {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    main {
+    
+        width: auto;
+        margin-top: 15%;
+       
+            
+    }
+    aside {
+        width: auto;
+        
+           
+    }
+   
+    .flex_item{
+        display: flex;
+        flex-direction: column;
+       
+        
+    }
+    .item{
+    
+        margin: auto;
+    }
+   
+  .flex_item{
+     display: flex;
+     
+     margin-bottom: 5%;
+ }
+}
+ 
+@media all and (max-width: 576px){
+    .portrait{
+        display:none
+    }
+    
+    #photo{
+        display:none
+    }
+    
+    .titre{
+        width: auto;
+        height: auto
+    }
+    
+    .contact{
+     margin-bottom:1%;
+ }
+    
+      .loisirs{
+    margin-top: 0;
+          margin-bottom:0%
+    }
+    
+     .section_main{
+     margin-left: 1%;
+     margin-right: 1%;
+
