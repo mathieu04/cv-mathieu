@@ -10,7 +10,7 @@ body{
     margin: auto;
     border: solid 2px #FFC107 ;
     color:#263238;
-    box-shadow: 0 0 30px 5px rgba(0, 0, 0,0.2)
+    
 }
 p{
     text-align: justify;
@@ -222,6 +222,13 @@ a:hover{
 }
 
 /*RESPONSIVE*/
+@media all and (min-width: 1025px){
+    .container{
+        width: 1200px;
+        box-shadow: 0 0 30px 5px rgba(0, 0, 0,0.2)
+    }
+}
+    
 @media all and (max-width: 800px){  
 
 
@@ -347,9 +354,4 @@ a:hover{
     .container{
         width: auto
     }
-}@media all and (min-width: 1025px){
-    .container{
-        width: 1200px;
-    }
 }
-    
