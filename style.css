@@ -302,8 +302,27 @@ a:hover{
 
     .titre{
         width: auto;
-        height: auto
+        height: auto;
+      font-size: 20px;
+}
+
+
+.soustitre {
+  
+    font-size: 20px;
+    top:40px;
     }
+    
+    .soustitre::after{
+    content: " ";
+    height: 2px;
+    width: 55px;
+    background-color: #FFC107;
+    position: absolute;
+    top: 22px;
+    left: 1px;
+}
+
 
     .contact{
         margin-bottom:1%;
