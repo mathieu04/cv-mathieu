@@ -1,5 +1,3 @@
-
-
 body{
     font-family: 'Raleway', sans-serif;
     font-size: 13px;
@@ -8,9 +6,10 @@ body{
 .container
 {
     margin: auto;
+   width: 1200px;
     border: solid 2px #FFC107 ;
     color:#263238;
-
+    box-shadow: 0 0 30px 5px rgba(0, 0, 0,0.2)
 }
 p{
     text-align: justify;
@@ -24,7 +23,6 @@ header {
 .titre {
     width: 70%;
     font-size: 30px;
-
 }
 
 .titre h2 {
@@ -36,7 +34,7 @@ header {
 .soustitre {
     position: relative;
     left: 34px;
-
+    
     font-size: 25px
 }
 
@@ -62,8 +60,6 @@ header {
 }
 
 #photo{
-    position: relative;
-    top:25px;
     border-radius: 50% ;
     height: 200px;
     width: 200px;
@@ -104,7 +100,6 @@ a:hover{
 }
 
 .contact{
-    margin-top: 60px;
     margin-bottom: 5%;
 }
 
@@ -152,7 +147,6 @@ a:hover{
 
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 60px
 }
 
 .icon_main {
@@ -222,10 +216,6 @@ a:hover{
 }
 
 /*RESPONSIVE*/
-
-}
-}
-
 @media all and (max-width: 800px){  
 
 
@@ -233,27 +223,27 @@ a:hover{
         width: auto;
         box-shadow: none;
     }
-
+    
     header{
         display: flex;
         flex-direction: column;
         height: 360px;
     }
-
-    .loisirs2{
+    
+  .loisirs2{
         display: flex;
         width: 100%;
         background-color: #FFC107;
         flex-direction: column;
         justify-content: space-between;
     }
-
+    
     .portrait{
         background-color: #FFC107;
         width: auto;
         height: 220px;
     }
-
+    
     .titre{
         width: auto;
         margin: auto;
@@ -261,11 +251,11 @@ a:hover{
         right: 30px;
         bottom: 70px;
     }
-
+    
     #photo{
         margin-top: 10px;
     }
-
+    
     .left{display:block;
     }
 
@@ -280,11 +270,11 @@ a:hover{
         width: auto;
         margin-top: 15%;
     }
-
+    
     aside {
         width: auto;
     }
-
+    
     .info{
         margin-left: 15%;
     }
@@ -293,7 +283,7 @@ a:hover{
         display: flex;
         flex-direction: column;
     }
-
+    
     .item{
 
         margin: auto;
@@ -311,25 +301,25 @@ a:hover{
     .titre{
         width: auto;
         height: auto;
-        font-size: 20px;
+      font-size: 20px;
+}
+
+
+.soustitre {
+  
+    font-size: 20px;
+    top:40px;
     }
-
-
-    .soustitre {
-
-        font-size: 20px;
-        top:40px;
-    }
-
+    
     .soustitre::after{
-        content: " ";
-        height: 2px;
-        width: 55px;
-        background-color: #FFC107;
-        position: absolute;
-        top: 22px;
-        left: 1px;
-    }
+    content: " ";
+    height: 2px;
+    width: 55px;
+    background-color: #FFC107;
+    position: absolute;
+    top: 22px;
+    left: 1px;
+}
 
 
     .contact{
@@ -344,17 +334,12 @@ a:hover{
     .section_main{
         margin-left: 1%;
         margin-right: 1%;
-    }
+        }
 }
 
 @media all and (min-width: 1024px){
     .container{
         width: auto
     }
-
-    @media all and (min-width: 1025px){
-        .container{
-            width: 1200px;
-            box-shadow: 0 0 30px 5px rgba(0, 0, 0,0.2)
-        }
-    }
+}
+    
