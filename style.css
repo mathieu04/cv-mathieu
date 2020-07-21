@@ -6,10 +6,10 @@ body{
 .container
 {
     margin: auto;
-   width: 1200px;
+   
     border: solid 2px #FFC107 ;
     color:#263238;
-    box-shadow: 0 0 30px 5px rgba(0, 0, 0,0.2)
+  
 }
 p{
     text-align: justify;
@@ -248,9 +248,33 @@ a:hover{
         width: auto;
         margin: auto;
         position: relative;
-        right: 30px;
-        bottom: 70px;
+          right: 30px;
+        bottom: 70px;    
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        
+            
     }
+    .soustitre{
+    display: flex;
+    justify-content: center;
+        
+        
+    
+    }
+    .soustitre::after{
+    content: " ";
+    height: 2px;
+    width: 75px;
+    background-color: #FFC107;
+        
+    position: absolute;
+    top: 26px;
+    left: 60px;
+}
+    
+    .nom{}
     
     #photo{
         margin-top: 10px;
@@ -302,24 +326,19 @@ a:hover{
         width: auto;
         height: auto;
       font-size: 20px;
-}
+        margin-top: 50px; 
+        
+    }
 
-
+   
 .soustitre {
   
     font-size: 20px;
-    top:40px;
+    
+    
     }
     
-    .soustitre::after{
-    content: " ";
-    height: 2px;
-    width: 55px;
-    background-color: #FFC107;
-    position: absolute;
-    top: 22px;
-    left: 1px;
-}
+    
 
 
     .contact{
@@ -339,7 +358,8 @@ a:hover{
 
 @media all and (min-width: 1024px){
     .container{
-        width: auto
+        width: 1200px;
+          box-shadow: 0 0 30px 5px rgba(0, 0, 0,0.2)
     }
 }
     
