@@ -253,6 +253,7 @@ a:hover{
         bottom: 70px;    
         display: flex;
         flex-direction: column;
+        justify-content: center;
         margin-top: 20px;
         
             
@@ -288,8 +289,8 @@ a:hover{
         display:none;
     }
 
-    .contact{
-        display:block;
+    .paragraphe_contact{
+        width: 50%
     }
     main {
         width: auto;
