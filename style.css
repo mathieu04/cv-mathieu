@@ -21,7 +21,7 @@ header {
 }
 
 .titre {
-    width: 70%;
+    width: 50%;
     font-size: 30px;
 }
 
@@ -70,6 +70,7 @@ header {
 /*disposition*/
 .left {
     display: flex;
+    
 }
 
 aside {
@@ -356,10 +357,6 @@ a:hover{
         }
 }
 
-@media all and (min-width: 1024px){
-    .container{
-        width: 1200px;
-          box-shadow: 0 0 30px 5px rgba(0, 0, 0,0.2)
-    }
+
 }
     
